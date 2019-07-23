@@ -1,0 +1,13 @@
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\bin\Debug\netcoreapp2.2\NvrScheduleModel.deps.json
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\bin\Debug\netcoreapp2.2\NvrScheduleModel.runtimeconfig.json
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\bin\Debug\netcoreapp2.2\NvrScheduleModel.runtimeconfig.dev.json
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\bin\Debug\netcoreapp2.2\NvrScheduleModel.dll
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.csproj.CoreCompileInputs.cache
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.RazorAssemblyInfo.cache
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.RazorAssemblyInfo.cs
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.AssemblyInfoInputs.cache
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.AssemblyInfo.cs
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.RazorTargetAssemblyInfo.cache
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\bin\Debug\netcoreapp2.2\NvrScheduleModel.pdb
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.dll
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrScheduleModel\obj\Debug\netcoreapp2.2\NvrScheduleModel.pdb

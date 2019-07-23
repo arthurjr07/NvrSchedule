@@ -1,0 +1,8 @@
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\obj\Debug\netstandard2.0\NvrSchedule.Model.csproj.CoreCompileInputs.cache
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\obj\Debug\netstandard2.0\NvrSchedule.Model.AssemblyInfoInputs.cache
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\obj\Debug\netstandard2.0\NvrSchedule.Model.AssemblyInfo.cs
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\bin\Debug\netstandard2.0\NvrSchedule.Model.deps.json
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\bin\Debug\netstandard2.0\NvrSchedule.Model.dll
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\bin\Debug\netstandard2.0\NvrSchedule.Model.pdb
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\obj\Debug\netstandard2.0\NvrSchedule.Model.dll
+C:\Users\Software Developer\source\repos\NvrScheduleModel\NvrSchedule.Model\obj\Debug\netstandard2.0\NvrSchedule.Model.pdb
