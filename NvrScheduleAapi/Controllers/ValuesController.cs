@@ -41,7 +41,7 @@ namespace NvrScheduleModel.Controllers
             schedule.AddException(
                 new ExceptionSchedule()
                 {
-                    Date = Convert.ToDateTime("13/08/2019"),
+                    Date = DateTime.ParseExact("13/08/2019", "dd/MM/yyyy", CultureInfo.InvariantCulture),
                     TimeRanges = new List<TimeRange>()
                     {
                                     new TimeRange()
@@ -59,7 +59,7 @@ namespace NvrScheduleModel.Controllers
             schedule.AddException(
                 new ExceptionSchedule()
                 {
-                    Date = Convert.ToDateTime("14/08/2019"),
+                    Date = DateTime.ParseExact("14/08/2019", "dd/MM/yyyy", CultureInfo.InvariantCulture),
                     TimeRanges = new List<TimeRange>()
                     {
                                     new TimeRange()
@@ -72,7 +72,7 @@ namespace NvrScheduleModel.Controllers
             schedule.AddException(
                 new ExceptionSchedule()
                 {
-                    Date = Convert.ToDateTime("15/08/2019"),
+                    Date = DateTime.ParseExact("15/08/2019", "dd/MM/yyyy", CultureInfo.InvariantCulture),
                     TimeRanges = new List<TimeRange>()
                     {
                                     new TimeRange()
