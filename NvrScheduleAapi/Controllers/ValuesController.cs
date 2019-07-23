@@ -16,132 +16,27 @@ namespace NvrScheduleModel.Controllers
         public ActionResult<IEnumerable<string>> Get()
         {
             var schedule = new NvrSchedule();
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Monday,
-                    TimeRanges = new List<TimeRange>()
+            foreach (var day in Enum.GetValues(typeof(DayOfWeek)))
+            {
+                schedule.AddDaySchedule(
+                    new DaySchedule()
                     {
-                        new TimeRange()
+                        Day = (DayOfWeek)day,
+                        TimeRanges = new List<TimeRange>()
                         {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Tuesday,
-                    TimeRanges = new List<TimeRange>()
-                    {
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Wednesday,
-                    TimeRanges = new List<TimeRange>()
-                    {
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Thursday,
-                    TimeRanges = new List<TimeRange>()
-                    {
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Friday,
-                    TimeRanges = new List<TimeRange>()
-                    {
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Saturday,
-                    TimeRanges = new List<TimeRange>()
-                    {
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
-            schedule.AddDaySchedule(
-                new DaySchedule()
-                {
-                    Day = System.DayOfWeek.Sunday,
-                    TimeRanges = new List<TimeRange>()
-                    {
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("00:00"),
-                            EndTime = TimeSpan.Parse("06:00")
-                        },
-                        new TimeRange()
-                        {
-                            StartTime = TimeSpan.Parse("18:00"),
-                            EndTime = TimeSpan.Parse("23:59")
-                        },
-                    }
-                });
+                                        new TimeRange()
+                                        {
+                                            StartTime = TimeSpan.Parse("00:00"),
+                                            EndTime = TimeSpan.Parse("06:00")
+                                        },
+                                        new TimeRange()
+                                        {
+                                            StartTime = TimeSpan.Parse("18:00"),
+                                            EndTime = TimeSpan.Parse("23:59")
+                                        },
+                        }
+                    });
+            }
 
             schedule.AddException(
                 new ExceptionSchedule()
